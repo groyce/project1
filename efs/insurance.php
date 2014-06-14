@@ -18,7 +18,7 @@ body {
 <br />
 <?php
 	//Open Connection
-	$conn = mysql_connect("localhost","root","vitria1976");
+	$conn = mysql_connect("127.2.39.130","adminwcrXfPW","vitria1976");
 	//Select DB
 	mysql_select_db("efs",$conn);
 	//Specify Customer

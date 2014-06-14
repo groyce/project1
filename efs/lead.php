@@ -52,7 +52,7 @@ if (isset($_POST['fname']))
 	$phone = $_POST['phone'];
 	$needs = $_POST['needs'];
 	//Establish Connection
-	$conn = mysql_connect("localhost","root","vitria1976");
+	$conn = mysql_connect("127.2.39.130","adminwcrXfPW","vitria1976");
 	//Pick DB
 	mysql_select_db("efs",$conn);
 	//Crease SQL Statement
